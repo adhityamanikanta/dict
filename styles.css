@@ -1,0 +1,128 @@
+/* Global CSS styles for all HTML files */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FF9D6C, #BB4E75); /* Colorful gradient background */
+    color: #333; /* Default text color */
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.dictionary-result {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for results */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.definition {
+    margin-bottom: 20px;
+}
+
+.definition h2 {
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold color for word headers */
+}
+
+.definition p {
+    margin: 10px 0;
+    color: #333; /* Dark gray color for definitions */
+}
+
+/* Additional colorful styling */
+
+.search-input:focus {
+    border-color: #007bff; /* Blue border color when input is focused */
+}
+
+.search-button {
+    background-color: #17a2b8; /* Turquoise color */
+    border-color: #17a2b8;
+}
+
+.search-button:hover {
+    background-color: #138496; /* Darker turquoise on hover */
+    border-color: #138496;
+}
+
+.dictionary-result {
+    background-color: #f8f9fa; /* Lighter gray background for results */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+}
+
+.definition h2 {
+    color: #dc3545; /* Red color for word headers */
+}
+
+.definition p {
+    color: #495057; /* Darker gray color for definitions */
+}
+
+/* Additional colorful styling */
+
+nav ul li a {
+    color: #fff; /* White text color */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+.dictionary-result {
+    background-color: #f4f4f4; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+}
